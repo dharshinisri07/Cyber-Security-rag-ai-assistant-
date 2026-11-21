@@ -1,0 +1,722 @@
+[
+    {
+        "id": 1,
+        "category": "Cybersecurity Fundamentals",
+        "question": "What is cybersecurity?",
+        "answer": "Cybersecurity is the practice of protecting computers, networks, applications, and data from unauthorized access, attacks, damage, and theft. It uses technologies, processes, and security policies to maintain confidentiality, integrity, and availability."
+    },
+    {
+        "id": 2,
+        "category": "Cybersecurity Fundamentals",
+        "question": "What is the CIA triad?",
+        "answer": "The CIA triad is a fundamental information security model consisting of Confidentiality, Integrity, and Availability. Confidentiality prevents unauthorized disclosure, Integrity prevents unauthorized modification, and Availability ensures systems and data remain accessible when required."
+    },
+    {
+        "id": 3,
+        "category": "Cybersecurity Fundamentals",
+        "question": "What is a vulnerability?",
+        "answer": "A vulnerability is a weakness in software, hardware, network configurations, or security procedures that an attacker could exploit to compromise a system."
+    },
+    {
+        "id": 4,
+        "category": "Cybersecurity Fundamentals",
+        "question": "What is a threat in cybersecurity?",
+        "answer": "A cybersecurity threat is a potential event or action that could exploit a vulnerability and cause harm to an information system, network, or organization."
+    },
+    {
+        "id": 5,
+        "category": "Cybersecurity Fundamentals",
+        "question": "What is risk assessment?",
+        "answer": "Risk assessment is the process of identifying security risks, analyzing their likelihood and potential impact, and prioritizing them for treatment. It helps organizations decide which security controls are necessary."
+    },
+    {
+        "id": 6,
+        "category": "Network Security",
+        "question": "What is a firewall?",
+        "answer": "A firewall is a network security mechanism that monitors and controls incoming and outgoing network traffic according to predefined security rules. It helps prevent unauthorized network access."
+    },
+    {
+        "id": 7,
+        "category": "Network Security",
+        "question": "What is an IDS?",
+        "answer": "An Intrusion Detection System monitors network or system activities for suspicious behavior and potential security violations. It generates alerts when it detects possible attacks."
+    },
+    {
+        "id": 8,
+        "category": "Network Security",
+        "question": "What is an IPS?",
+        "answer": "An Intrusion Prevention System monitors network traffic and can automatically block or prevent detected malicious activities based on configured security rules."
+    },
+    {
+        "id": 9,
+        "category": "Network Security",
+        "question": "What is the difference between IDS and IPS?",
+        "answer": "An IDS primarily detects suspicious activities and generates alerts, whereas an IPS can actively block or prevent malicious traffic. IDS is generally monitoring-focused, while IPS provides preventive enforcement."
+    },
+    {
+        "id": 10,
+        "category": "Network Security",
+        "question": "What is a VPN?",
+        "answer": "A Virtual Private Network creates an encrypted connection between a device and a VPN endpoint over an untrusted network. It helps protect data in transit and can provide secure remote access."
+    },
+    {
+        "id": 11,
+        "category": "Common Cyber Attacks",
+        "question": "What is phishing?",
+        "answer": "Phishing is a social engineering attack in which attackers impersonate trusted individuals or organizations through emails, messages, or websites to trick victims into revealing sensitive information or performing harmful actions."
+    },
+    {
+        "id": 12,
+        "category": "Common Cyber Attacks",
+        "question": "What is ransomware?",
+        "answer": "Ransomware is malicious software that encrypts files or otherwise prevents access to systems and demands payment for restoration. Some ransomware operators also steal information and threaten to publish it."
+    },
+    {
+        "id": 13,
+        "category": "Common Cyber Attacks",
+        "question": "What is a Denial-of-Service attack?",
+        "answer": "A Denial-of-Service attack attempts to make a service or system unavailable by overwhelming it with traffic or requests or by exploiting a weakness. A Distributed Denial-of-Service attack uses multiple sources."
+    },
+    {
+        "id": 14,
+        "category": "Common Cyber Attacks",
+        "question": "What is SQL Injection?",
+        "answer": "SQL Injection is a vulnerability in which untrusted input is incorporated into SQL queries in an unsafe way, allowing an attacker to interfere with database queries. Parameterized queries and safe input handling help prevent it."
+    },
+    {
+        "id": 15,
+        "category": "Common Cyber Attacks",
+        "question": "What is Cross-Site Scripting?",
+        "answer": "Cross-Site Scripting, or XSS, is a web security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. Context-aware output encoding and appropriate security controls help prevent XSS."
+    },
+    {
+        "id": 16,
+        "category": "Ethical Hacking",
+        "question": "What is ethical hacking?",
+        "answer": "Ethical hacking is the authorized testing of systems, applications, and networks to identify security weaknesses. It is performed within an agreed scope and with permission from the system owner."
+    },
+    {
+        "id": 17,
+        "category": "Ethical Hacking",
+        "question": "What is penetration testing?",
+        "answer": "Penetration testing is an authorized security assessment in which testers simulate realistic attack techniques to identify and validate exploitable weaknesses and report their potential impact."
+    },
+    {
+        "id": 18,
+        "category": "Security Tools",
+        "question": "What is Nmap?",
+        "answer": "Nmap is a network discovery and security auditing tool. It can identify hosts, discover open ports, detect services and versions, and perform other authorized network assessment tasks."
+    },
+    {
+        "id": 19,
+        "category": "Security Tools",
+        "question": "What is Wireshark?",
+        "answer": "Wireshark is a network protocol analyzer used to capture and inspect network packets. It helps security professionals troubleshoot network problems and investigate suspicious communication."
+    },
+    {
+        "id": 20,
+        "category": "Security Tools",
+        "question": "What is Burp Suite?",
+        "answer": "Burp Suite is a web application security testing platform. Its tools help assess HTTP and HTTPS traffic, inspect requests and responses, and identify web application vulnerabilities in authorized testing environments."
+    },
+    {
+        "id": 21,
+        "category": "Network Security",
+        "question": "What is an IP address?",
+        "answer": "An Internet Protocol address is a logical address assigned to a network interface. It helps identify a device and enables communication across IP networks. IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses."
+    },
+    {
+        "id": 22,
+        "category": "Network Security",
+        "question": "What is the difference between IPv4 and IPv6?",
+        "answer": "IPv4 uses 32-bit addresses written in dotted decimal notation, such as 192.168.1.1. IPv6 uses 128-bit addresses written in hexadecimal notation, providing a much larger address space and other protocol improvements."
+    },
+    {
+        "id": 23,
+        "category": "Network Security",
+        "question": "What is a MAC address?",
+        "answer": "A Media Access Control address is a link-layer identifier assigned to a network interface. It is commonly represented as six hexadecimal byte pairs and is used for communication within a local network."
+    },
+    {
+        "id": 24,
+        "category": "Network Security",
+        "question": "What is DNS?",
+        "answer": "The Domain Name System translates human-readable domain names into IP addresses and provides other naming information. It allows users and applications to access services using domain names instead of remembering IP addresses."
+    },
+    {
+        "id": 25,
+        "category": "Network Security",
+        "question": "What is DHCP?",
+        "answer": "Dynamic Host Configuration Protocol automatically provides network configuration information to devices, including IP addresses, subnet masks, default gateways, and DNS server addresses."
+    },
+    {
+        "id": 26,
+        "category": "Network Security",
+        "question": "What is the OSI model?",
+        "answer": "The OSI model is a seven-layer conceptual framework for understanding network communication. Its layers are Physical, Data Link, Network, Transport, Session, Presentation, and Application."
+    },
+    {
+        "id": 27,
+        "category": "Network Security",
+        "question": "What are the seven layers of the OSI model?",
+        "answer": "The seven OSI layers from bottom to top are Physical, Data Link, Network, Transport, Session, Presentation, and Application. Each layer describes different responsibilities involved in network communication."
+    },
+    {
+        "id": 28,
+        "category": "Network Security",
+        "question": "What is the TCP/IP model?",
+        "answer": "The TCP/IP model describes communication across interconnected networks. Its commonly used four layers are Network Access, Internet, Transport, and Application."
+    },
+    {
+        "id": 29,
+        "category": "Network Security",
+        "question": "What is TCP?",
+        "answer": "Transmission Control Protocol is a connection-oriented transport protocol that provides reliable, ordered data delivery. It uses acknowledgements, sequence numbers, retransmissions, and flow control."
+    },
+    {
+        "id": 30,
+        "category": "Network Security",
+        "question": "What is UDP?",
+        "answer": "User Datagram Protocol is a connectionless transport protocol that sends datagrams without establishing a connection. It has lower protocol overhead than TCP but does not guarantee delivery, ordering, or retransmission."
+    },
+    {
+        "id": 31,
+        "category": "Network Security",
+        "question": "What is the difference between TCP and UDP?",
+        "answer": "TCP provides reliable, ordered, connection-oriented communication using acknowledgements and retransmissions. UDP is connectionless and has lower overhead but does not guarantee delivery or ordering. The choice depends on application requirements."
+    },
+    {
+        "id": 32,
+        "category": "Network Security",
+        "question": "What is a port number?",
+        "answer": "A port number is a 16-bit identifier used by transport protocols such as TCP and UDP to direct traffic to application services or processes on a host. Port numbers range from 0 to 65535."
+    },
+    {
+        "id": 33,
+        "category": "Network Security",
+        "question": "What is HTTP?",
+        "answer": "Hypertext Transfer Protocol is an application-layer protocol used for communication between web clients and servers. Standard HTTP does not itself provide transport encryption."
+    },
+    {
+        "id": 34,
+        "category": "Network Security",
+        "question": "What is HTTPS?",
+        "answer": "HTTPS is HTTP protected by TLS. It provides encryption in transit, integrity protection, and server authentication through digital certificates."
+    },
+    {
+        "id": 35,
+        "category": "Network Security",
+        "question": "What is the difference between HTTP and HTTPS?",
+        "answer": "HTTP transfers application data without TLS protection, whereas HTTPS uses TLS to protect communication through encryption and integrity checks and to authenticate the server. HTTPS is recommended for modern websites."
+    },
+    {
+        "id": 36,
+        "category": "Network Attacks",
+        "question": "What is ARP spoofing?",
+        "answer": "ARP spoofing is a local network attack in which an attacker sends forged Address Resolution Protocol messages to associate an incorrect MAC address with an IP address. It can enable traffic interception or disruption."
+    },
+    {
+        "id": 37,
+        "category": "Network Attacks",
+        "question": "What is a Man-in-the-Middle attack?",
+        "answer": "A Man-in-the-Middle attack occurs when an attacker positions themselves between communicating parties to intercept or potentially modify their communication without their knowledge. Strong encryption and certificate validation help reduce this risk."
+    },
+    {
+        "id": 38,
+        "category": "Network Attacks",
+        "question": "What is packet sniffing?",
+        "answer": "Packet sniffing is the capture and inspection of network packets. It is used legitimately for troubleshooting and security monitoring, but unauthorized packet capture can expose sensitive information."
+    },
+    {
+        "id": 39,
+        "category": "Network Attacks",
+        "question": "What is DNS spoofing?",
+        "answer": "DNS spoofing involves providing false DNS information so that a domain name resolves to an unintended IP address. It can redirect users to malicious destinations. DNS security controls and encrypted, authenticated connections help reduce risk."
+    },
+    {
+        "id": 40,
+        "category": "Network Security",
+        "question": "What is network segmentation?",
+        "answer": "Network segmentation divides a network into smaller isolated sections using technologies such as VLANs, firewalls, and access controls. It limits unnecessary communication and helps contain security incidents."
+    },
+    {
+        "id": 41,
+        "category": "Ethical Hacking",
+        "question": "What are the phases of penetration testing?",
+        "answer": "Common penetration testing phases include planning and scoping, reconnaissance, scanning and enumeration, vulnerability analysis, controlled exploitation, post-exploitation assessment where authorized, and reporting. The exact methodology depends on the agreed scope."
+    },
+    {
+        "id": 42,
+        "category": "Ethical Hacking",
+        "question": "What is reconnaissance in ethical hacking?",
+        "answer": "Reconnaissance is the information-gathering phase of security testing. It involves collecting information about authorized target systems, domains, technologies, network infrastructure, and publicly available assets."
+    },
+    {
+        "id": 43,
+        "category": "Ethical Hacking",
+        "question": "What is passive reconnaissance?",
+        "answer": "Passive reconnaissance gathers information about a target using publicly available sources without directly interacting with the target systems. Examples include public websites, search engines, and publicly available DNS information."
+    },
+    {
+        "id": 44,
+        "category": "Ethical Hacking",
+        "question": "What is active reconnaissance?",
+        "answer": "Active reconnaissance involves directly interacting with authorized target systems to collect information. Examples include port scanning, service discovery, and network probing. It requires appropriate authorization."
+    },
+    {
+        "id": 45,
+        "category": "Ethical Hacking",
+        "question": "What is vulnerability assessment?",
+        "answer": "Vulnerability assessment is the process of identifying, classifying, and prioritizing security weaknesses in systems and applications. It helps organizations understand their security exposure and plan remediation."
+    },
+    {
+        "id": 46,
+        "category": "Ethical Hacking",
+        "question": "What is the difference between vulnerability assessment and penetration testing?",
+        "answer": "Vulnerability assessment identifies and prioritizes potential weaknesses, while penetration testing safely validates whether selected weaknesses can be exploited and evaluates their practical impact. Both require authorization and have different objectives."
+    },
+    {
+        "id": 47,
+        "category": "Security Tools",
+        "question": "What is Nmap used for?",
+        "answer": "Nmap is a network discovery and security auditing tool used to identify hosts, discover open ports, detect services and versions, and perform authorized network assessments."
+    },
+    {
+        "id": 48,
+        "category": "Security Tools",
+        "question": "What does the Nmap command nmap -sV do?",
+        "answer": "The command nmap -sV <target> enables service and version detection on discovered ports. It attempts to identify which services are running and their versions. Use it only against systems you are authorized to assess."
+    },
+    {
+        "id": 49,
+        "category": "Security Tools",
+        "question": "What does the Nmap -p option do?",
+        "answer": "The Nmap -p option specifies which ports to scan. For example, nmap -p 80,443 <target> scans TCP ports 80 and 443. The target must be within the authorized testing scope."
+    },
+    {
+        "id": 50,
+        "category": "Security Tools",
+        "question": "What is Nikto?",
+        "answer": "Nikto is an open-source web server scanner that checks for potentially dangerous files, outdated server software, insecure configurations, and known web server issues. Its findings should be manually verified."
+    },
+    {
+        "id": 51,
+        "category": "Security Tools",
+        "question": "What is Gobuster?",
+        "answer": "Gobuster is a command-line enumeration tool that can discover directories, files, DNS subdomains, and virtual hosts depending on its mode. It is commonly used during authorized security assessments."
+    },
+    {
+        "id": 52,
+        "category": "Security Tools",
+        "question": "What is Metasploit Framework?",
+        "answer": "Metasploit Framework is a penetration testing platform that provides tools for vulnerability research, exploit validation, payload handling, and security assessments. Its modules should only be used in authorized environments."
+    },
+    {
+        "id": 53,
+        "category": "Security Tools",
+        "question": "What is a Metasploit module?",
+        "answer": "A Metasploit module is a component designed for a particular security testing task. Common module categories include exploit, auxiliary, payload, post, encoder, and NOP modules."
+    },
+    {
+        "id": 54,
+        "category": "Security Tools",
+        "question": "What is Hydra in cybersecurity?",
+        "answer": "THC Hydra is a network login auditing tool that tests authentication services using supplied username and password combinations. It should only be used for authorized password security assessments."
+    },
+    {
+        "id": 55,
+        "category": "Security Tools",
+        "question": "What is Burp Suite Proxy?",
+        "answer": "Burp Suite Proxy acts as an intercepting proxy between a browser and a web application. It allows testers to inspect, capture, and modify HTTP and HTTPS requests and responses during authorized testing."
+    },
+    {
+        "id": 56,
+        "category": "Security Tools",
+        "question": "What is OWASP ZAP?",
+        "answer": "OWASP ZAP, or Zed Attack Proxy, is an open-source web application security testing tool. It supports intercepting proxy functionality, passive scanning, active scanning, and automated testing workflows."
+    },
+    {
+        "id": 57,
+        "category": "Penetration Testing",
+        "question": "What is enumeration in penetration testing?",
+        "answer": "Enumeration is the process of collecting detailed information about discovered systems and services. It may identify usernames, shared resources, service details, network information, and other exposed information within an authorized scope."
+    },
+    {
+        "id": 58,
+        "category": "Penetration Testing",
+        "question": "What is privilege escalation?",
+        "answer": "Privilege escalation occurs when a user or process gains permissions beyond those originally assigned. Vertical privilege escalation means gaining higher privileges, while horizontal privilege escalation means accessing another user's resources at a similar privilege level."
+    },
+    {
+        "id": 59,
+        "category": "Penetration Testing",
+        "question": "What is a false positive in vulnerability scanning?",
+        "answer": "A false positive occurs when a security scanner reports a vulnerability that does not actually exist. Findings should be validated through manual investigation and supporting evidence before reporting."
+    },
+    {
+        "id": 60,
+        "category": "Penetration Testing",
+        "question": "What should a penetration testing report contain?",
+        "answer": "A penetration testing report should contain an executive summary, scope, methodology, findings, severity ratings, supporting evidence, business impact, remediation recommendations, limitations, and a conclusion."
+    },
+    {
+        "id": 61,
+        "category": "SOC and SIEM",
+        "question": "What is a Security Operations Center (SOC)?",
+        "answer": "A Security Operations Center (SOC) is a centralized team or facility responsible for continuously monitoring, detecting, analyzing, and responding to cybersecurity threats. SOC analysts investigate suspicious activities, manage security alerts, and coordinate incident response."
+    },
+    {
+        "id": 62,
+        "category": "SOC and SIEM",
+        "question": "What is SIEM in cybersecurity?",
+        "answer": "Security Information and Event Management (SIEM) is a technology that collects and analyzes security logs and event data from multiple systems. It helps organizations identify suspicious activities, correlate security events, generate alerts, and support incident investigations."
+    },
+    {
+        "id": 63,
+        "category": "SOC and SIEM",
+        "question": "What are the main functions of a SIEM system?",
+        "answer": "The main functions of a SIEM system include log collection, event normalization, event correlation, real-time monitoring, alert generation, threat detection, reporting, and support for security investigations and compliance."
+    },
+    {
+        "id": 64,
+        "category": "SOC and SIEM",
+        "question": "What is a security log?",
+        "answer": "A security log is a record of activities and events generated by systems, applications, networks, and security devices. It may contain information about user logins, access attempts, system changes, network connections, and security alerts. Analysts use logs to investigate suspicious activities."
+    },
+    {
+        "id": 65,
+        "category": "SOC and SIEM",
+        "question": "What is log analysis?",
+        "answer": "Log analysis is the process of examining system, application, and network logs to identify unusual patterns, errors, security incidents, and suspicious activities. It helps security teams understand what happened, when it happened, and which systems may be affected."
+    },
+    {
+        "id": 66,
+        "category": "SOC and SIEM",
+        "question": "What is event correlation in SIEM?",
+        "answer": "Event correlation is the process of connecting related events from different sources to identify meaningful security patterns. For example, multiple failed login attempts followed by a successful login from an unusual location may indicate a possible account compromise."
+    },
+    {
+        "id": 67,
+        "category": "SOC and SIEM",
+        "question": "What is a security alert?",
+        "answer": "A security alert is a notification generated by a security tool when it detects an event or activity that may indicate a threat or policy violation. Analysts review alerts to determine whether they represent genuine security incidents or harmless activity."
+    },
+    {
+        "id": 68,
+        "category": "SOC and SIEM",
+        "question": "What is alert triage in a SOC?",
+        "answer": "Alert triage is the process of reviewing, validating, prioritizing, and categorizing security alerts. SOC analysts examine evidence, assess severity, identify potential impact, and decide whether further investigation or incident response is required."
+    },
+    {
+        "id": 69,
+        "category": "SOC and SIEM",
+        "question": "What is the difference between an event and an incident?",
+        "answer": "An event is any observable activity occurring in a system or network, such as a user login or file modification. A security incident is an event or group of events that actually or potentially compromises confidentiality, integrity, or availability, or violates security policies."
+    },
+    {
+        "id": 70,
+        "category": "SOC and SIEM",
+        "question": "What are the common responsibilities of a SOC analyst?",
+        "answer": "A SOC analyst monitors security alerts, analyzes logs, investigates suspicious activities, identifies potential threats, documents findings, escalates incidents, and supports incident response. Analysts may also perform threat hunting and recommend security improvements."
+    },
+    {
+        "id": 71,
+        "category": "Incident Response",
+        "question": "What is incident response in cybersecurity?",
+        "answer": "Incident response is a structured process for identifying, analyzing, containing, eradicating, and recovering from cybersecurity incidents. Its purpose is to reduce damage, restore normal operations, and prevent similar incidents from occurring again."
+    },
+    {
+        "id": 72,
+        "category": "Incident Response",
+        "question": "What are the main phases of incident response?",
+        "answer": "A commonly used incident response lifecycle includes preparation, detection and analysis, containment, eradication, recovery, and post-incident activity. These phases help organizations respond to security incidents systematically and improve their defenses."
+    },
+    {
+        "id": 73,
+        "category": "Incident Response",
+        "question": "What is incident containment?",
+        "answer": "Incident containment involves taking immediate actions to limit the spread and impact of a security incident. Examples include isolating an affected endpoint, disabling a compromised account, blocking malicious network traffic, and restricting access to affected systems."
+    },
+    {
+        "id": 74,
+        "category": "Incident Response",
+        "question": "What is threat intelligence?",
+        "answer": "Threat intelligence is information about existing or emerging cyber threats that helps organizations understand attackers, their methods, infrastructure, and objectives. It supports threat detection, risk assessment, security monitoring, and informed defensive decisions."
+    },
+    {
+        "id": 75,
+        "category": "Incident Response",
+        "question": "What is an Indicator of Compromise (IOC)?",
+        "answer": "An Indicator of Compromise (IOC) is an observable piece of evidence that may suggest a system or network has been compromised. Examples include malicious file hashes, suspicious IP addresses, unusual domain names, and unexpected system changes."
+    },
+    {
+        "id": 76,
+        "category": "SOC and SIEM",
+        "question": "What is threat hunting?",
+        "answer": "Threat hunting is the proactive process of searching networks, endpoints, and logs for hidden threats that may not have triggered existing security alerts. Analysts use hypotheses, threat intelligence, behavioral patterns, and investigation techniques to uncover suspicious activity."
+    },
+    {
+        "id": 77,
+        "category": "SOC and SIEM",
+        "question": "What is Splunk used for in cybersecurity?",
+        "answer": "Splunk is a platform used to collect, search, analyze, and visualize machine-generated data, including security logs. Security teams can use it for monitoring, investigating incidents, detecting suspicious patterns, building dashboards, and generating alerts."
+    },
+    {
+        "id": 78,
+        "category": "SOC and SIEM",
+        "question": "What is a false positive in security monitoring?",
+        "answer": "A false positive occurs when a security tool identifies an activity as suspicious or malicious even though it is legitimate. Excessive false positives can increase alert fatigue and waste analyst time, so alerts should be validated using relevant evidence."
+    },
+    {
+        "id": 79,
+        "category": "SOC and SIEM",
+        "question": "What is alert fatigue in a SOC?",
+        "answer": "Alert fatigue occurs when security analysts receive too many alerts, especially repetitive or low-priority ones, making it difficult to identify important threats. Alert tuning, prioritization, automation, and improved detection rules can help reduce alert fatigue."
+    },
+    {
+        "id": 80,
+        "category": "SOC and SIEM",
+        "question": "What is the difference between EDR and SIEM?",
+        "answer": "Endpoint Detection and Response (EDR) focuses on monitoring, detecting, investigating, and responding to threats on endpoint devices such as computers and servers. SIEM collects and analyzes security events from multiple sources across an organization. EDR provides endpoint-focused visibility, while SIEM offers broader security event correlation and monitoring."
+    },
+    {
+        "id": 81,
+        "category": "Web Application Security",
+        "question": "What is web application security?",
+        "answer": "Web application security refers to the practices and controls used to protect websites and web applications from attacks, unauthorized access, data theft, and other vulnerabilities. It includes secure coding, authentication, authorization, input validation, encryption, and regular security testing."
+    },
+    {
+        "id": 82,
+        "category": "OWASP",
+        "question": "What is OWASP?",
+        "answer": "OWASP stands for Open Worldwide Application Security Project. It is a nonprofit organization that provides resources, tools, documentation, and guidance to improve software security. Its OWASP Top 10 publication highlights major web application security risks."
+    },
+    {
+        "id": 83,
+        "category": "OWASP",
+        "question": "What is the OWASP Top 10?",
+        "answer": "The OWASP Top 10 is a regularly updated awareness document describing important web application security risks. It helps developers, testers, and organizations understand common weaknesses and improve application security. The 2025 edition is the latest published edition."
+    },
+    {
+        "id": 84,
+        "category": "Web Application Security",
+        "question": "What is SQL Injection and how can it be prevented?",
+        "answer": "SQL Injection is a vulnerability in which an attacker manipulates application input to interfere with database queries. It can expose, modify, or delete data. Prevention includes parameterized queries, prepared statements, safe ORM usage, input validation, and least-privilege database accounts."
+    },
+    {
+        "id": 85,
+        "category": "Web Application Security",
+        "question": "What is Cross-Site Scripting (XSS)?",
+        "answer": "Cross-Site Scripting (XSS) is a web vulnerability in which malicious scripts are injected into content viewed by other users. It may be used to steal session information or manipulate page content. Prevention includes context-aware output encoding, safe DOM practices, input validation, and Content Security Policy."
+    },
+    {
+        "id": 86,
+        "category": "Web Application Security",
+        "question": "What are the different types of XSS?",
+        "answer": "The three common types of Cross-Site Scripting are stored XSS, reflected XSS, and DOM-based XSS. Stored XSS saves malicious content on a server, reflected XSS returns it in a response, and DOM-based XSS occurs through unsafe client-side JavaScript handling."
+    },
+    {
+        "id": 87,
+        "category": "Web Application Security",
+        "question": "What is Cross-Site Request Forgery (CSRF)?",
+        "answer": "Cross-Site Request Forgery (CSRF) is an attack that tricks an authenticated user's browser into sending an unwanted request to a website. Defenses include anti-CSRF tokens, appropriate SameSite cookie settings, and verifying request origins."
+    },
+    {
+        "id": 88,
+        "category": "Web Application Security",
+        "question": "What is broken access control?",
+        "answer": "Broken access control occurs when an application does not correctly enforce permissions, allowing users to access resources or perform actions beyond their authorization. Prevention includes server-side authorization checks, deny-by-default policies, and testing access permissions."
+    },
+    {
+        "id": 89,
+        "category": "Web Application Security",
+        "question": "What is authentication in web applications?",
+        "answer": "Authentication is the process of verifying the identity of a user or system. Common methods include passwords, multi-factor authentication, security keys, and certificates. Secure authentication should use strong password storage, rate limiting, and secure session management."
+    },
+    {
+        "id": 90,
+        "category": "Web Application Security",
+        "question": "What is authorization in web applications?",
+        "answer": "Authorization determines what an authenticated user is allowed to access or perform. For example, an administrator may manage users while a regular user can only view permitted resources. Authorization checks should be enforced on the server for every protected action."
+    },
+    {
+        "id": 91,
+        "category": "Web Application Security",
+        "question": "What is the difference between authentication and authorization?",
+        "answer": "Authentication verifies who a user is, while authorization determines what that user is permitted to do. Authentication occurs before access decisions, although authorization must be checked whenever a protected resource or action is requested."
+    },
+    {
+        "id": 92,
+        "category": "Web Application Security",
+        "question": "What is insecure direct object reference (IDOR)?",
+        "answer": "Insecure Direct Object Reference (IDOR) is an access control weakness that occurs when an application exposes an object identifier and fails to verify whether the requesting user is authorized to access that object. Prevention requires server-side ownership and permission checks."
+    },
+    {
+        "id": 93,
+        "category": "Web Application Security",
+        "question": "What is security misconfiguration?",
+        "answer": "Security misconfiguration occurs when applications, servers, databases, or cloud services have insecure settings. Examples include default credentials, unnecessary services, verbose error messages, and publicly exposed storage. Prevention includes secure configuration baselines, patching, and regular reviews."
+    },
+    {
+        "id": 94,
+        "category": "Web Application Security",
+        "question": "What is Server-Side Request Forgery (SSRF)?",
+        "answer": "Server-Side Request Forgery (SSRF) occurs when an attacker tricks a server into making requests to unintended destinations. It may expose internal services or sensitive resources. Defenses include destination allowlists, network segmentation, URL validation, and restricting unnecessary outbound requests."
+    },
+    {
+        "id": 95,
+        "category": "Web Application Security",
+        "question": "What is file upload vulnerability?",
+        "answer": "A file upload vulnerability occurs when an application does not safely validate or handle uploaded files. Attackers may upload malicious or unexpected content. Defenses include allowlisting file types, checking file signatures, limiting file sizes, renaming files, and storing uploads outside executable web directories."
+    },
+    {
+        "id": 96,
+        "category": "Web Application Security",
+        "question": "What is directory traversal?",
+        "answer": "Directory traversal is a vulnerability that allows an attacker to access files outside an intended directory by manipulating file paths. Prevention includes canonicalizing and validating paths, using safe file-handling APIs, and restricting application permissions."
+    },
+    {
+        "id": 97,
+        "category": "Web Application Security",
+        "question": "What is a Content Security Policy (CSP)?",
+        "answer": "Content Security Policy (CSP) is a browser security mechanism delivered through an HTTP response header. It restricts the sources from which a webpage can load scripts, styles, images, and other resources. A properly configured CSP can reduce the impact of certain XSS attacks."
+    },
+    {
+        "id": 98,
+        "category": "Web Application Security",
+        "question": "What is session hijacking?",
+        "answer": "Session hijacking occurs when an attacker obtains or misuses a valid user's session identifier to impersonate that user. Defenses include HTTPS, Secure and HttpOnly cookie attributes, appropriate SameSite settings, session rotation, and expiration."
+    },
+    {
+        "id": 99,
+        "category": "Web Application Security",
+        "question": "What is input validation?",
+        "answer": "Input validation is the process of checking whether user-provided data meets expected rules before an application processes it. It should validate data types, formats, lengths, and allowed values. Input validation helps reduce risks but should be combined with output encoding and parameterized queries."
+    },
+    {
+        "id": 100,
+        "category": "Web Application Security",
+        "question": "What is secure coding?",
+        "answer": "Secure coding is the practice of developing software in a way that reduces security vulnerabilities. It includes input validation, output encoding, safe authentication, access control, secure error handling, dependency management, code reviews, and security testing throughout the development lifecycle."
+    },
+    {
+        "id": 101,
+        "category": "Digital Forensics",
+        "question": "What is digital forensics?",
+        "answer": "Digital forensics is the process of identifying, collecting, preserving, examining, and presenting digital evidence from computers, mobile devices, networks, and other digital systems. It supports cybercrime investigations and incident response."
+    },
+    {
+        "id": 102,
+        "category": "Digital Forensics",
+        "question": "What are the main phases of digital forensics?",
+        "answer": "Common phases include identification, preservation, collection or acquisition, examination, analysis, and reporting. These phases help investigators handle digital evidence systematically while maintaining its integrity and documenting their actions."
+    },
+    {
+        "id": 103,
+        "category": "Digital Forensics",
+        "question": "What is digital evidence?",
+        "answer": "Digital evidence is information stored or transmitted in digital form that may be relevant to an investigation. Examples include emails, documents, photographs, browser history, system logs, network captures, and mobile device data."
+    },
+    {
+        "id": 104,
+        "category": "Digital Forensics",
+        "question": "What is the chain of custody?",
+        "answer": "Chain of custody is the documented record of how evidence is collected, transferred, stored, accessed, and handled throughout an investigation. It identifies the people responsible, dates, times, and actions performed to help establish evidence integrity and accountability."
+    },
+    {
+        "id": 105,
+        "category": "Digital Forensics",
+        "question": "Why is evidence preservation important in digital forensics?",
+        "answer": "Evidence preservation helps prevent accidental or intentional alteration, deletion, or contamination of digital evidence. Investigators document the original state, use appropriate acquisition methods, restrict access, and maintain integrity checks throughout the investigation."
+    },
+    {
+        "id": 106,
+        "category": "Digital Forensics",
+        "question": "What is forensic imaging?",
+        "answer": "Forensic imaging is the creation of a bit-by-bit copy of a digital storage device or specified media. It aims to preserve the original evidence, including allocated and unallocated areas, so investigators can examine the copy rather than unnecessarily modifying the original."
+    },
+    {
+        "id": 107,
+        "category": "Digital Forensics",
+        "question": "What is a write blocker?",
+        "answer": "A write blocker is a hardware or software mechanism that prevents data from being written to a storage device during forensic acquisition. It helps protect original evidence from accidental modification while allowing investigators to read and copy its contents."
+    },
+    {
+        "id": 108,
+        "category": "Digital Forensics",
+        "question": "What is file hashing in digital forensics?",
+        "answer": "File hashing generates a fixed-length digest from digital data using a hash algorithm such as SHA-256. Investigators calculate hashes before and after acquisition or examination to check whether the data has changed. Matching hashes provide evidence that the compared data is identical with respect to that hash algorithm."
+    },
+    {
+        "id": 109,
+        "category": "Digital Forensics",
+        "question": "What is the difference between MD5 and SHA-256?",
+        "answer": "MD5 produces a 128-bit hash, while SHA-256 produces a 256-bit hash. MD5 is vulnerable to collision attacks and should not be relied upon for modern security-sensitive integrity verification. SHA-256 is generally preferred for forensic integrity checks."
+    },
+    {
+        "id": 110,
+        "category": "Digital Forensics",
+        "question": "What is disk forensics?",
+        "answer": "Disk forensics is the examination of data stored on storage devices such as hard drives and solid-state drives. Investigators may examine file systems, deleted files, partitions, metadata, timestamps, and other artifacts to reconstruct user or system activity."
+    },
+    {
+        "id": 111,
+        "category": "Digital Forensics",
+        "question": "What is memory forensics?",
+        "answer": "Memory forensics involves analyzing volatile memory, commonly RAM, to investigate running processes, active network connections, loaded modules, command history, and possible malware activity. It can reveal evidence that may not be available from disk analysis alone."
+    },
+    {
+        "id": 112,
+        "category": "Digital Forensics",
+        "question": "What is volatile data?",
+        "answer": "Volatile data is information that can disappear when a system loses power or changes state. Examples include RAM contents, active network connections, running processes, and temporary system information. Investigators may collect it early because it can be lost quickly."
+    },
+    {
+        "id": 113,
+        "category": "Digital Forensics",
+        "question": "What is non-volatile data?",
+        "answer": "Non-volatile data is information that generally remains stored after a system is powered off. Examples include files on hard drives, solid-state drives, and other persistent storage. It can be collected and examined during a forensic investigation."
+    },
+    {
+        "id": 114,
+        "category": "Digital Forensics",
+        "question": "What is file system analysis?",
+        "answer": "File system analysis is the examination of how a storage device organizes and manages files and directories. Investigators inspect file metadata, timestamps, directory structures, deleted entries, and file allocation information to understand system activity."
+    },
+    {
+        "id": 115,
+        "category": "Digital Forensics",
+        "question": "What are file metadata and why are they important?",
+        "answer": "File metadata is information describing a file, such as its name, size, type, creation time, modification time, and ownership. Metadata can help investigators establish timelines and understand how files were created, accessed, or changed, although timestamps must be interpreted carefully."
+    },
+    {
+        "id": 116,
+        "category": "Digital Forensics Tools",
+        "question": "What is Autopsy in digital forensics?",
+        "answer": "Autopsy is an open-source digital forensics platform that provides a graphical interface for examining hard drives and forensic disk images. It supports file analysis, keyword searching, deleted-file recovery, timeline examination, and other investigative tasks."
+    },
+    {
+        "id": 117,
+        "category": "Digital Forensics Tools",
+        "question": "What is The Sleuth Kit?",
+        "answer": "The Sleuth Kit is an open-source collection of command-line tools and libraries used to investigate disk images and file systems. It helps forensic analysts examine partitions, file metadata, directory structures, and deleted file entries."
+    },
+    {
+        "id": 118,
+        "category": "Digital Forensics Tools",
+        "question": "What is Volatility used for?",
+        "answer": "Volatility is an open-source memory forensics framework used to analyze RAM captures. Investigators can examine processes, network connections, loaded modules, command-line activity, and other memory artifacts that may indicate malicious behavior."
+    },
+    {
+        "id": 119,
+        "category": "Digital Forensics",
+        "question": "What is a forensic timeline?",
+        "answer": "A forensic timeline is a chronological representation of relevant digital events, such as file creation, modification, access, logins, and system activity. It helps investigators reconstruct sequences of events and identify suspicious behavior."
+    },
+    {
+        "id": 120,
+        "category": "Digital Forensics",
+        "question": "What should a digital forensic investigation report contain?",
+        "answer": "A digital forensic report should include the investigation scope, case details, evidence identifiers, acquisition methods, tools and versions used, integrity verification results, examination procedures, findings, limitations, conclusions, and supporting documentation. It should be clear, objective, and reproducible."
+    }
+]
